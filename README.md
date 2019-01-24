@@ -11,8 +11,7 @@ Hello Guys, bienvenue sur notre fabuleux repo, youpiii, je passe vraiement un bo
 > [Et alors à toi la gloire, bravo champion](https://www.youtube.com/watch?v=kiMlscxvJgw) !
 
   Le jeu se relance à chaques fin de parti, un petit cntrl+c vous sera nécessaire pour vous sortir de cette boucle infernal !
-  
+
   Auteurs : Adrien RIPPE - @Adri et Rachel PALUMBO - @rach
----
 
 ![we love hackerman](https://i.kym-cdn.com/entries/icons/original/000/021/807/4d7.png)

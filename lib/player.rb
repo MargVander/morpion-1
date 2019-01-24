@@ -6,9 +6,8 @@ class Player
     def initialize(value)
       #TO DO : doit régler son nom, sa valeur, son état de victoire
         @name = gets.chomp
-        puts ">Welcome #{@name}!".colorize(:magenta)
+        puts ">Welcome #{@name.capitalize}!".colorize(:magenta)
         @value = value
-        @status = ">The game is in progress".colorize(:magenta)
     end
 end 
   

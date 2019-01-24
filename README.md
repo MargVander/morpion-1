@@ -1,73 +1,89 @@
-##FUCKING MORPION
+## F*@#ING MORPION 
 
-@ Hello Guys, bienvenue sur notre fabuleux repo, youpiii, je passe vraiement un bon moment 
+Hello Guys, bienvenue sur notre fabuleux repo, youpiii, je passe vraiement un bon moment (pleurs nerveusement).
 
-https://www.youtube.com/watch?v=kiMlscxvJgw t'es vraiment de genre de gonz
+---
+  En description, welp ... il s'agit là d'un jeu de morpion. Enjoy ! 
 
-En description eh binnn... j'en sais rien, un jeu de morpion 
+  Nous avons programmé rien que pour toi un formidable petit jeu de morpion.
+  Le jeu est composé d'un plateau de 9 cases. 2 joueurs s'y affronteront sans merci : chacun à leur tours, les joueurs placeront un pion, le premier à aligner 3 pions horizontalement, verticalement ou dans le sans inverse des éguilles d'une montre... Non pardon, diagonalement, remportera la parti.
+
+> [Et alors à toi la gloire, bravo champion](https://www.youtube.com/watch?v=kiMlscxvJgw) !
+
+Le jeu se relance à chaques fin de parti, un petit cntrl+c vous sera nécessaire pour vous sortir de cette boucle infernal !
+---
+
+  Auteurs : Adrien RIPPE - @Adri et Rachel PALUMBO - @rach
+
+---
 
 
-                    .+~                :xx++::
-                   :`. -          .!!X!~"?!`~!~!. :-:.
-                  <             .!!!H":.~ ::+!~~!!!~ `%X.
-                  '             ~~!M!!>!!X?!!!!!!!!!!...!~.
-                              <!:!MM!~:XM!!!!!!.:!..~ !.  `<
-                  <: `   :~ .:<~!!M!XXHM!!!X!XXHtMMHHHX!  ~ ~
-                ~~~~<' ~!!!:!!!!!XM!!M!!!XHMMMRMSXXX!!!!!!:  <`
-                  `<  <::!!!!!X!X?M!!M!!XMMMMXXMMMM??!!!!!?!:~<
-               : '~~~<!!!XMMH!!XMXMXHHXXXXM!!!!MMMMSXXXX!!!!!!!~
-            :    ::`~!!!MMMMXXXtMMMMMMMMMMMHX!!!!!!HMMMMMX!!!!!: ~
-               '~:~!!!!!MMMMMMMMMMMMMMMMMMMMMMXXX!!!M??MMMM!!X!!i:
-               <~<!!!!!XMMMMMMMMMMMM8M8MMMMM8MMMMMXX!!!!!!!!X!?t?!:
-               ~:~~!!!!?MMMMMM@M@RMRRR$@@MMRMRMMMMMMXSX!!!XMMMX<?X!
-             :XX <!!XHMMMM88MM88BR$M$$$$8@8RN88MMMMMMMMHXX?MMMMMX!!!
-           .:X! <XMSM8M@@$$$$$$$$$$$$$$$$$$$B8R$8MMMMMMMMMMMMMMMMX!X
-          :!?! !?XMMMMM8$$$$8$$$$$$$$$$$$$$BBR$$MMM@MMMMMMMMMMMMMM!!X
-        ~<!!~ <!!XMMMB$$$$$$$$$$$$$$$$$$$$$$$$MMR$8MR$MMMMMMMMMMMMM!?!:
-        :~~~ !:X!XMM8$$$$$$$$$$$$$$$$$$$$$$$RR$$MMMMR8NMMMMMMMMMMMMM<!`-
-    ~:<!:~`~':!:HMM8N$$$$$$$$$$$$$$$$$$$$$$$$$8MRMM8R$MRMMMMMMMMRMMMX!
-  !X!``~~   :~XM?SMM$B$$$$$$$$$$$$$$$$$$$$$$BR$$MMM$@R$M$MMMMMM$MMMMX?L
- X~.      : `!!!MM#$RR$$$$$$$$$$$$$$$$$R$$$$$R$M$MMRRRM8MMMMMMM$$MMMM!?:
- ! ~ <~  !! !!~`` :!!MR$$$$$$$$$$RMM!?!??RR?#R8$M$MMMRM$RMMMM8MM$MMM!M!:>
-: ' >!~ '!!  !   .!XMM8$$$$$@$$$R888HMM!!XXHWX$8$RM$MR5$8MMMMR$$@MMM!!!< ~
-!  ' !  ~!! :!:XXHXMMMR$$$$$$$$$$$$$$$$8$$$$8$$$MMR$M$$$MMMMMM$$$MMM!!!!
- ~<!!!  !!! !!HMMMMMMMM$$$$$$$$$$$$$$$$$$$$$$$$$$MMM$M$$MM8MMMR$$MMXX!!!!/:`
-  ~!!!  !!! !XMMMMMMMMMMR$$$$$$$$$$$$R$RRR$$$$$$$MMMM$RM$MM8MM$$$M8MMMX!!!!:
-  !~ ~  !!~ XMMM%!!!XMMX?M$$$$$$$$B$MMSXXXH?MR$$8MMMM$$@$8$M$B$$$$B$MMMX!!!!
-  ~!    !! 'XMM?~~!!!MMMX!M$$$$$$MRMMM?!%MMMH!R$MMMMMM$$$MM$8$$$$$$MR@M!!!!!
-  <>    !!  !Mf x@#"~!t?M~!$$$$$RMMM?Xb@!~`??MS$M@MMM@RMRMMM$$$$$$RMMMMM!!!!
-  !    '!~ <!!:!?M   !@!M<XM$$R5M$8MMM$! -XXXMMRMBMMM$RMMM@$R$BR$MMMMX??!X!!
-  !    '!  !!X!!!?::xH!HM:MM$RM8M$RHMMMX...XMMMMM$RMMRRMMMMMMM8MMMMMMMMX!!X!
-  !     ~  !!?:::!!!MXMR~!MMMRMM8MMMMMS!!M?XXMMMMM$$M$M$RMMMM8$RMMMMMMMM%X!!
-  ~     ~  !~~X!!XHMMM?~ XM$MMMMRMMMMMM@MMMMMMMMMM$8@MMMMMMMMRMMMMM?!MMM%HX!
-           !!!!XSMMXXMM .MMMMMMMM$$$BB8MMM@MMMMMMMR$RMMMMMMMMMMMMMMMXX!?H!XX
-           XHXMMMMMMMM!.XMMMMMMMMMR$$$8M$$$$$M@88MMMMMMMMMMMMMMM!XMMMXX!!!XM
-      ~   <!MMMMMMMMRM:XMMMMMMMMMM8R$$$$$$$$$$$$$$$NMMMMMMMM?!MM!M8MXX!!/t!M
-      '   ~HMMMMMMMMM~!MM8@8MMM!MM$$8$$$$$$$$$$$$$$8MMMMMMM!!XMMMM$8MR!MX!MM
-          'MMMMMMMMMM'MM$$$$$MMXMXM$$$$$$$$$$$$$$$$RMMMMMMM!!MMM$$$$MMMMM<!M
-          'MMMMMMMMM!'MM$$$$$RMMMMMM$$$$$$$$$$$$$$$MMM!MMMX!!MM$$$$$M$$M$M!M
-           !MMMMMM$M! !MR$$$RMM8$8MXM8$$$$$$$$$$$$NMMM!MMM!!!?MRR$$RXM$$MR!M
-           !M?XMM$$M.< !MMMMMMSUSRMXM$8R$$$$$$$$$$#$MM!MMM!X!t8$M$MMMHMRMMX$
-    ,-,   '!!!MM$RMSMX:.?!XMHRR$RM88$$$8M$$$$$R$$$$8MM!MMXMH!M$$RMMMMRNMMX!$
-   -'`    '!!!MMMMMMMMMM8$RMM8MBMRRMR8RMMM$$$$8$8$$$MMXMMMMM!MR$MM!M?MMMMMM$
-          'XX!MMMMMMM@RMM$MM@$$BM$$$M8MMMMR$$$$@$$$$MM!MMMMXX$MRM!XH!!??XMMM
-          `!!!M?MHMMM$RMMMR@$$$$MR@MMMM8MMMM$$$$$$$WMM!MMMM!M$RMM!!.MM!%M?~!
-           !!!!!!MMMMBMM$$RRMMMR8MMMMMRMMMMM8$$$$$$$MM?MMMM!f#RM~    `~!!!~!
-           ~!!HX!!~!?MM?MMM??MM?MMMMMMMMMRMMMM$$$$$MMM!MMMM!!
-           '!!!MX!:`~~`~~!~~!!!!XM!!!?!?MMMM8$$$$$MMMMXMMM!!
-            !!~M@MX.. <!!X!!!!XHMHX!!``!XMMMB$MM$$B$M!MMM!!
-            !!!?MRMM!:!XHMHMMMMMMMM!  X!SMMX$$MM$$$RMXMMM~
-             !M!MMMM>!XMMMMMMMMXMM!!:!MM$MMMBRM$$$$8MMMM~
-             `?H!M$R>'MMMM?MMM!MM6!X!XM$$$MM$MM$$$$MX$f
-              `MXM$8X MMMMMMM!!MM!!!!XM$$$MM$MM$$$RX@"
-               ~M?$MM !MMMMXM!!MM!!!XMMM$$$8$XM$$RM!`
-                !XMMM !MMMMXX!XM!!!HMMMM$$$$RH$$M!~
-                'M?MM `?MMXMM!XM!XMMMMM$$$$$RM$$#
-                 `>MMk ~MMHM!XM!XMMM$$$$$$BRM$M"
-                  ~`?M. !M?MXM!X$$@M$$$$$$RMM#
-                    `!M  !!MM!X8$$$RM$$$$MM#`
-                      !% `~~~X8$$$$8M$$RR#`
-                       !!x:xH$$$$$$$R$R*`
-                        ~!?MMMMRRRM@M#`       -Sushil-
-                         `~???MMM?M"`
-                             ``~~
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddhhhhhdddddddddddddddddddddddddddddddo 
+dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddhhdo 
+hddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddhdhdds 
+sddddddddmdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddds 
++dddddddmmmmmmmdddddddddddddddddddddmddddddmdddddddddddddddddddddddddddddddddddddddddddddddddddddmy 
+yddddmdmmmmdddddddddddddmmmddddmmmmmdmmmmmmdmdddmdddddddddddddddddddmddddddddddddddddddddddddddddms 
+dddddmmmmdddddmmmmdddddmddddhyhdddddddddddddmdddhysoosyyddddddddddddddddddddddddddddddddddmmmdmmmmo 
+dmmmmmmmmmmmmmmmmmmmmmddddhyhhhhddddddmddddhysooossosysssssyyyhyyhddddddddddddddmmdddmmmmmmmmmmmmmo 
+ddmddmmmmmdddmmddmdmmmdddhhddddddddddddddyyy+:ohhhhysosssssoosyhysoshddddddmdmmmmmmmmmmmmmmmmmmmhms 
+dddmmmmmmddddmdddddddddddhddddddddddddhhhhy/-ohyyo+/+osoossosyyysyhhhhhdddmmddmmmmmmmmmmmmmmmmmmmms 
+dddmmmddmdmmmmddddddddddhhhdddddhhhhhhhsyso:++o+//++oo+oo+::-//+oosddhdyhddmmmmmmmmmmmmmmmmmmmmmmms 
+dddddmddmmmmddddddddddddhhyyhhyyyosysysoo+::+/::/oo/::-----://+++oo+oshdhhhdmmmmmmmmmmmmmmmmmmmmmms 
+ddddmmdmdddddddddddddhhhhhyhhhsssso++o++//:-:/:+++/:-::/::-.--//+++oooo+shhdddmmmmmmmmmmmmmmmmmmmms 
+dddddddddddddddddddddhyhhyyyyso/::--://::::-:::/::::://++/:::-:::://++oossshdddmmmmmmmmmmmmmmmmmmms 
+ddddddddddddddddddhyhhhhyyyyso/:-..--:::--------------:://////::::---:/+++++shddmmmmmmmmmmmmmmmmmmy 
+ddddddddddddddddddhhhyyyyyyso+/:-.-------..............---:::://+++/////+o+//+ydmmmmmmmmmmmmmmmmmmy 
+ddddddddddddddddddddhhysssso+/::---.......``````````````..----:://///:::-:+so++ymmmmmmmmmmmmmmmmmmy 
+dddddddddddddddddddhyo+syo+/::--.........`````````````````....--:::::/:-----+ssohmmmmmmmmmmmmmmmmmy 
+dddddddddddddddddhyo:/ys+:--..````````````````         ``````..------::------:o++hmmmmmmmmmmmmmmmmy 
+dddddddddddddddhyo//oyo/:-..```````````               ```````....-----::---..-:o++ydmmmmmmmmmmmmmmy 
+dddddddmdddddhhyso+yyo+/-..`````````                ````````.........--::--...-:+oydddmmmmmmmmmmmmy 
+ddddddmmmdhhhyhyyyyhs+//-..```````` `                  ```.`........-.-----.....:+odmmmmmmmmmmmmmmy 
+ddddddddhyyyyyyhhhdyo+::-.```   `````` `            ` `````...`..`..`..--..``..--/osdmmmmdmmmmmmmmy 
+ddmmmdhssyddddddhydyo//:::-..`````````````````...-.`````````......``...--.```.-:/:+shhdmmmmmmmmmmmh 
+dmdmdhshdddhhddhoydyoshhhyo//-````````````...:::++o/+//:.``````..```.....````..:///oyhhdmmmmmmmmmmh 
+ddmddydmdhysydhy+ydhohhso+:-..`````````````` ```.---....````....````....-.` `.-:/++ooyhddmmmmmmmmmh 
+ddddhhddhyyshdho/sdy+/---.-....````           ``` ``````````.-..```.......```.--:/+oooshhddmmmmmmmh 
+ddddddddysyyhdho+yds:...--:-----..`        ` ``...--..``  ``.--.`````.....`` ```.-:/osososydmmmmmmh 
+dddmdmmdyyhhddhsohd+-.-:++++/::://-`      `````-::::-:/:.```.-:..````....```` ``..-:/+oooossydmmmmh 
+dmmmmmddhyddddhysdd+::+ss++oo//:-os-`  ```.----////++/::-.```.-......-..```````.-::-:/oo+ooyhhhdmmh 
+dmmmmmmmhyddddhsydho/+ho-:yhhs:+:+y-```.`.---::-`:hyds//--````...`..-...`.````..-:::///++ossyhdmddh`
+dmmmmmmmyyddddhohdyo+/oo++yhs+:+:so-.`...-.`-::--/ssy+::--..```..`...-..`.``.-:::::///++++oyyyddmmh`
+dmmmmddmyhmmdddyddys+osyyo++::::oh/.........-:::::::::::----.```.....--..`..-::://::://+oo+ohhhdmmh`
+dddmddmmhhmmmmmhmdssyo/++/:::::ody:...-.....`...-.......-:-..``.-----------::::::sso+/+/+++/syhhdmd`
+dddmmdddddmmmmmmmho+o+/::--::--yh+-.-----...`````.```...........:----:::::::/+/--/++yyo+/////osyydh`
+ddmmmmddmdmmmdmmmho:::------.-+y/--.---::-...`` ```  `````````..-----::/++::+/..-//ooss++::::+ooohd`
+ddmmdddmmmmmdhmmmh/-----:--.-+y/-.....--/:-.``````     `` ````..-:-::::+o+:/.-.``--++-oo/:---/o+:+h`
+ddddddmmmmmmmdmmmh/-----:----s+-.`````.-::::.`````````````````.--:::::/+o/--`````--.-..so-`..:+o//s`
+ddddmmmmmmmmmmmmmd+---::--../ho-.``````.-..---```    ``````````--:/:::/+++:-`.``-::.`.-/s.`.--ooo/s`
+dddmmmmmmmmmmmmmmmo/::::-.`-yyhs:.....----..--.`.````````````...-:/:::////-.`-.-:-::--:/+``-:-syh+y`
+dddmmmmmmmmmddmmmms++/:-.`.-/+sys+::--....---.....-.````....`...-:+::///+/```-://::--::+/..-//yhysh`
+dddmmmmdddddhdmmmds+s+-...---.----................-:-.......```.-:/::::/+:...:+o+oo+////::::+oyyshd.
+dddmmmmmmmmmmmmmmmo/so::-:---```.```.````..``.--------......```.-//::::/+..--/osss+oo++/+yo/sshddmm.
+dddmmmmmmmmmmmmmmms/os//:----.`..````````.....-..-:----.....```.://:-::+++-:+yhdddhssssydddhdmmmmmm.
+ddmmmmmmmmmmmmmmmmh++o/++//:--.-....--...--------------.....``.--//:-::+oddhdmmmmmmmmddmmmmmmmmmmmm.
+dddmmmmmmmmmmmmmmmms+s::+syss+o+++/++o//+/::++//+/::..-.........-//--:/ohdmmmmmmmmmmmmmmmmmmmmmmmmm-
+ddddmmmmmmmmmmmmmmmy+oo-.-/syhh+++::/+//::::/+shhs//-.-.`..````.-+-.-+ohmmmmmmmmmmmmmmmmmmmmmmmmmmm-
+dddddmmmmmmmmmmmmmmdo/o/.`../so:------------:+hho:-.-:-`.-.````.::.-+hdmmmmmmmmmmmmmmmmmmmmmmmmmmmm-
+dddddmmmmmmmmmmmmmmmd+:+:```.h+-.-.-----:-.-+o+/:-``.--`.-.````-:.:sdmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd-
+ddddddmmmmmmmmmmmmmmmd+:+-``.ys.`..-----:..:o//:-.```..`--```.-:-+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddd-
+hddddddmmmmmmmmmmmmmmmd+-+.``od:...-:-:::.-++//-...`````--``.-/+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddhhh-
+hhdddddmmmmmmmmmmmmmmmmd+//../m+-..-:-::-./+::....``````-.`.:ydmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddhhhhh-
+hhhddddmmmmmmmmmmmmmmmmmd++:.-dh/--:/-::-:+-...````````-.`.+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddhhyhyhh-
+yhhhdddmmmmmmmmmmmmmmmmmmdsy:-+dh/-::::-:/-```````````--.+hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmddhhyyyyyyy-
+syhhhdddmmmmmmmmmmmmmmmmmmmdho:+dh+/::://.` ````````.-/ohmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdhhyysyhyyyy-
+osyyhdddmmmmmmmmmmmmmmmmmmmmmdy//hhso++/`` ```````.-+ydmmmmmmmmmmmmmmmmmmmmmmdmmdmmmmddhyyyyyhyyyyy-
+sssyhhdddmmmmmmmmmmmmmmmmmmmmmmdo+oso+-`````````.:ohmmmmmmmmmmmmmmdmmdddmmmmmmmmdmmddhyysysyyysyyhh:
+sssyyhddmmmmmmmmmmmmmmmmmmmmmmmmmho/:--..-....-+ydmmmmmmmmmmmmmmmmmmmdddmmmmdmdmmddhhyyossyysssyhhd:
+osshhddmmmmmmmmmmmmmmmmmmmmmmmmmmmmdhsoo+/+ooydmmmmmmmmmmmmmmmmmmmddddddmdddddmddhyyyososssysyyyhdh:
+oyhdddmmmmmmmmmmmmmmmmmmmmmdddmh+oydmdyo+ohmmmmmmmmmmmmmmmmmmmmmmmmdmdmddddddddhyyssoosossyyyshyhhd:
+hdddddmmmmmddddmmmmmmmmmmmddhhd/`.:+hdshhdmmmmmmmmmmmmmmmmmmmmmmmmmdddddddddddhysooyooosshyyhyyhddd:
+hddddddmmmmdddddmmmmmmmmmddhhh/+yhhhhhydmmmmmmmmmmmmmmmmmmmmmmmmddmdddddddddhso+o+oooososysyyhhhddd:
+hddddddddddddddddmmmmmmmdhhhd/sdhhhdmmmmmmmmmmmmmmmmmmmmmmmmmmmdddddddddddhhso+++osooososossyhhhddd:
+hddddddddddddddddmmmmmddhhhhhyhhhddmmmmmmmmmmmmmmmmmmmmmmmmmmdmddddddddddhysoooooooososyssyyhhhdddh:
+hdddddddddddddddddmmddhhhhhddhhddmmmmmmmmmmmmmmmmmmmmmmmmmdddddddddddddhyyso++oosssossyysyhhhhddddd/
+hdddddddddddddddddmdhhyyhhdddddddmmmmmmmmmmmmmmmmmmmmdddddddddddddddddyyssooosossososysyyhhdddddddd/
+hhdddddddddddddddddhhhhhdddddmmdddmdmdmmmmmmmmmmmmmmmmddmdddddddddddhssssyyoooosssosyyyyhddhddddddd/
+hddddddddddddddddhhyyyhddmmmmmmddmmmmmmmmmmmmmmmmmmmmmdddmmdmmmddddhysssyyysyyyysyyyhhhhhddhddddddd/
+syyyyyyyyyyyyyyyssoossyyyyyyyyyyyyyyyyyyyyyyhhyyyyyyyyyyyyyyyhhyysooo+oooosoosssssossssyyyyyhhhhhhy/

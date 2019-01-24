@@ -7,61 +7,77 @@ require 'colorize'
 - Au début de chaque tour de jeu, le programme affiche dans le terminal le plateau de jeu. Puis il demande au joueur dont c'est le tour où il souhaite jouer ;
 - Les joueurs jouent à tour de rôle jusqu'à que l'un d'eux gagne ou que le plateau de jeu soit rempli ;
 - Le programme doit détecter la fin de la partie. Si un joueur gagne, il doit annoncer son nom. S'il y a match nul, le programme doit en informer les deux joueurs ;
-- À la fin d'une partie, le programme doit proposer de lancer une nouvelle partie ;
 - Un effort sera à faire sur l'affichage du jeu dans le terminal (par ex : board affiché de façon stylée, compteur de parties, couleurs, etc.).
 =end
 
 class BoardCase
-    attr_accessor :x :o :
-  #TO DO : la classe a 2 attr_accessor, sa valeur en string (X, O, ou vide), ainsi que son identifiant de case
+  #TO DO : la classe a 2 attr_accessor, sa valeur (X, O, ou vide), ainsi que son numéro de case)
+  attr_accessor :value, :case_number 
+  
+  def initialize (case_number)
+    #TO DO doit régler sa valeur, ainsi que son numéro de case
+      @value = value
+      @case_number = case_number
+  end
+end
 
+
+
+class Router
+    attr_accessor :valeur :case
   
   def initialize
-    @controller =  Controller.new
-
-    #TO DO : doit régler sa valeur, ainsi que son numéro de case
-  end
-  
-
-  def perform #rappelle-toi que l'on fait "Router.new.perform" dans app.rb => après initialize, on définit perform.
-    puts ""
-    puts "BONJOUR ET BIENVENUE SUR LE FABULEUX JEUX DU MORPION".yellow
-    while true
-  
-    puts ""
-    puts "Tu veux faire quoi BG ?".green
-    sleep(2)
-    puts "On fait un petit jeu ?".green
-    sleep(2)
-    player1 = gets.chomp.to_s
-    player2 = gets.chomp.to_s
-    print > "#{player1}".blue
-    print > "#{player2}".red
-
-    case params 
-    when 1
-      puts "Nouvelle partie ?".green
-      puts ""
-      @controller.create_gossip
-    when 2
-      puts "À bientôt !"
-      puts ""
-      break
-    else
-      puts "Ce choix n'existe pas, merci de ressayer"
+    def get_names
+      puts "Player X name: ".blue
+      name1 = gets.chomp
+      puts "Player O name: ".red
+      name2 = gets.chomp
+      [name1, name2]
     end
-end
-end
-end
+    
+    def perform #rappelle-toi que l'on fait "Router.new.perform" dans app.rb => après initialize, on définit perform.
+      puts ""
+      puts "BONJOUR ET BIENVENUE SUR LE FABULEUX JEUX DU MORPION".yellow
+      while true
+  
+      puts ""
+      puts "Dude, what do you want ? you want play with a fabulous morpion game ?".green
+      sleep(2)
+      
+      puts "Player X name: ".blue
+      name1 = gets.chomp
+      puts "Player O name: ".red
+      name2 = gets.chomp
+      [name1, name2]
+    end
+  
+      case params 
+      when 1
+        puts "Nouvelle partie ?".green
+        puts ""
+        @controller.create_gossip
+      when 2
+        puts "À bientôt !"
+        puts ""
+        break
+      else
+        puts "Ce choix n'existe pas, merci de ressayer"
+      end
+  end
+  end
+  end
+    #TO DO : doit régler sa valeur, ainsi que son numéro de cases
+  
 
-
+  
 
 class Board
   #TO DO : la classe a 1 attr_accessor : un array/hash qui contient les BoardCases.
-  #Optionnellement on peut aussi lui rajouter un autre sous le nom @count_turn pour compter le nombre de coups joué
 
 
   def initialize
+    @cells = [BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new,BoardCase.new]
+  end
     #TO DO :
     #Quand la classe s'initialize, elle doit créer 9 instances BoardCases
     #Ces instances sont rangées dans un array/hash qui est l'attr_accessor de la classe
@@ -84,7 +100,7 @@ C1, C2, C3
 
 
 class Player
-  #TO DO : la classe a 2 attr_reader, son nom et sa valeur (X ou O).
+  attr_accessor :valeur :name
 
   
   def initialize
@@ -123,7 +139,9 @@ class Show
     @view = View.new
     #TO DO : affiche sur le terminal l'objet de classe Board en entrée. S'active avec un Show.new.show_board(instance_de_Board)
   end
-
+puts
+puts
+puts
 end
 
 

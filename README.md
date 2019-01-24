@@ -9,9 +9,9 @@ Hello Guys, bienvenue sur notre fabuleux repo, youpiii, je passe vraiement un bo
   Le jeu est composé d'un plateau de 9 cases. 2 joueurs s'y affronteront sans merci : chacun à leur tours, les joueurs placeront un pion, le premier à aligner 3 pions horizontalement, verticalement ou dans le sans inverse des éguilles d'une montre... Non pardon, diagonalement, remportera la parti.
 
 > [Et alors à toi la gloire, bravo champion](https://www.youtube.com/watch?v=kiMlscxvJgw) !
----
+
   Le jeu se relance à chaques fin de parti, un petit cntrl+c vous sera nécessaire pour vous sortir de cette boucle infernal !
----
+  
   Auteurs : Adrien RIPPE - @Adri et Rachel PALUMBO - @rach
 ---
 
